@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:bloc_app/data/cart_items.dart';
-import 'package:bloc_app/data/wishlist_items.dart';
+
+import '../../../data/utils.dart';
 import 'package:bloc_app/features/home/models/home_product_data_model.dart';
 import 'package:flutter/material.dart';
 

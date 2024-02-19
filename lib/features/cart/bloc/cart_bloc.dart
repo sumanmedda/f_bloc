@@ -1,9 +1,11 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:bloc_app/data/cart_items.dart';
+
 import 'package:bloc_app/features/home/models/home_product_data_model.dart';
 import 'package:meta/meta.dart';
+
+import '../../../data/utils.dart';
 
 part 'cart_event.dart';
 part 'cart_state.dart';
